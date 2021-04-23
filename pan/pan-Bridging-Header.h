@@ -8,5 +8,6 @@
 #ifndef pan_Bridging_Header_h
 #define pan_Bridging_Header_h
 
+#import "PanViewController.h"
 
 #endif /* pan_Bridging_Header_h */

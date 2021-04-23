@@ -9,7 +9,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class PanCollectionView;
 @interface PanViewController : UIViewController
+@property (nonatomic, strong) UIScrollView *scrolView;
+
+@property (nonatomic, strong) NSMutableArray <PanCollectionView *> *collectionViews;
+
+@property (nonatomic, assign) NSInteger index;
 
 @end
 

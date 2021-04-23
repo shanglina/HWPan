@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import HWPanModal
 
 class ViewController: UIViewController {
 
@@ -15,5 +16,10 @@ class ViewController: UIViewController {
     }
 
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        self.presentPanModal(PanViewController())
+        
+    }
 }
 
